@@ -1,0 +1,35 @@
+{
+  "name": "bundlesize-store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dev=true node dev",
+    "start": "node index"
+  },
+  "now": {
+    "env": {
+      "apiKey": "@bundlesize_apikey",
+      "databaseURL": "@bundlesize_databaseurl",
+      "githubId": "@bundlesize_githubid",
+      "githubSecret": "@bundlesize_githubsecret",
+      "newrelicKey": "@bundlesize_newrelickey"
+    }
+  },
+  "keywords": [],
+  "author": "siddharthkp",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "1.17.2",
+    "bytes": "2.5.0",
+    "dotenv": "4.0.0",
+    "ejs": "^2.6.1",
+    "express": "4.17.1",
+    "firebase": "4.1.2",
+    "newrelic": "1.40.0",
+    "pug": "2.0.3"
+  },
+  "devDependencies": {
+    "pug-lint": "^2.5.0"
+  }
+}
