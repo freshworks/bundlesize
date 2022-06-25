@@ -1,5 +1,5 @@
 {
-  "name": "bundlesize",
+  "name": "@freshworks/bundlesize",
   "version": "0.18.1",
   "description": "Keep your library size in check",
   "repository": {
